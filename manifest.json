@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Password Manager",
+  "description": "Manage all of your passwords under one extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"],
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}

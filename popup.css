@@ -1,0 +1,87 @@
+html {
+    width: 430px;
+    height: 400px;
+    margin: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+#show_pass {
+    border: none;
+    width: 0px;
+    margin-left: -60px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+}
+
+#randomize {
+    border: none;
+    width: 0px;
+    margin-left: 10px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+}
+
+.element {
+    margin-bottom: 5px;
+}
+
+button:not(#show_pass):not(#randomize) {
+    background-color: #419e4c;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+button:not(#show_pass):not(#randomize):hover {
+    background-color: rgb(49, 120, 57);
+    color: rgb(222, 222, 222);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    white-space: nowrap;
+    width: 500px;
+}
+
+.slide {
+    display: inline-block;
+    white-space: normal;
+}
+
+input {
+    width: 380px;
+    padding-right: 60px;
+    padding: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 4px;
+    line-height: 20px;
+}
+
+.memo {
+    vertical-align: top;
+}
+
+textarea {
+    width: 380px;
+    padding: 5px;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="popup.css" />
+        <script src="popup.js"></script>
+        <script src="encrypt.js"></script>
+    </head>
+    <body>
+        <h1>Password Manager</h1>
+        <p></p>
+        <div>Website</div> <input readonly id="url"></input>
+        <p></p>
+        <div>Key</div> <input class="element" id="master" type="password" name="password" placeholder="Key" autofocus autocomplete="off">
+        <p></p>
+        <div>Site Password</div> 
+        <form>
+            <input class="element" id="password" type="password" name="password" placeholder="Password" autocomplete="off">
+            <button title="Click to show/hide password" id="show_pass" type="button">
+                <img class="icon" id="eye" src="icons/closeeye.png" alt="Show password on/off">
+            </button>
+            <button title="Randomly generate a password" id="randomize" type="button">
+                <img class="icon" id="dice" src="icons/dice.png" alt="randomize">
+            </button>
+        </form>
+        <p></p>
+        Memo Box <div><textarea id="memo" autofocus placeholder="Type anything you want to remember"></textarea></div>
+        <form>
+            <button class="element" title="Save your password to the program" type="button" id="save">Save</button>
+            <button class="element" title="Copy your password to the clipboard. " type="button" id="copy">Clipboard</button>
+        </form>
+    </body>
+</html>
