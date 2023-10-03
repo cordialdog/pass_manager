@@ -1,5 +1,5 @@
 # Password Manager
-#### Video Demo:  <URL HERE>
+#### Video Demo:  https://youtu.be/ffy9dZDl1dg
 ## Description:
 This is a password management extension to store all your passwords in one place! I wanted to create one place to store all your passwords, because everyone uses hundreds of passwords, and it can be hard to remember them all. Only one password is needed to access all of your other passwords.
 
